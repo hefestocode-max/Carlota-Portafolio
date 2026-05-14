@@ -165,7 +165,7 @@ p { color: var(--text-grey-be); font-weight: 300; line-height: 1.8; }
 .home_header_image-wrap {
   position: relative;
   width: 100%;
-  height: 56.25vw;
+  height: 100vh;
   overflow: hidden;
 }
 .home_header_video {
@@ -976,7 +976,7 @@ p { color: var(--text-grey-be); font-weight: 300; line-height: 1.8; }
   .heading-style-h4 { font-size: 1.25rem; }
 
   .section_home_header { margin-top: 4rem; }
-  .home_header_image-wrap { height: 70vw; }
+  .home_header_image-wrap { height: 100vh; }
 
   .common_work_list { grid-template-columns: 1fr; }
   .common_services_list { grid-template-columns: 1fr; }
