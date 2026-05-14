@@ -261,10 +261,11 @@ p { color: var(--text-grey-be); font-weight: 300; line-height: 1.8; }
 }
 .home_about_image-wrap {
   border-radius: .5rem;
-  width: 16.25rem;
-  height: 24.3125rem;
+  width: 22rem;
+  height: 30rem;
   overflow: hidden;
   flex-shrink: 0;
+  align-self: center;
 }
 .home_about_image { width: 100%; height: 100%; object-fit: cover; }
 .home_about_info {
