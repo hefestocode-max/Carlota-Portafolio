@@ -194,7 +194,7 @@ p { color: var(--text-grey-be); font-weight: 300; line-height: 1.8; }
 }
 .home_header_name {
   font-family: 'Great Vibes', cursive;
-  font-size: clamp(5rem, 13vw, 12rem);
+  font-size: clamp(4rem, 10vw, 9rem);
   font-weight: 400;
   font-style: normal;
   color: #fff;
