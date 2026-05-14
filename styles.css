@@ -184,9 +184,9 @@ p { color: var(--text-grey-be); font-weight: 300; line-height: 1.8; }
 /* Hero name + rotating text overlay */
 .home_header_content {
   position: absolute;
-  bottom: 10%;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   text-align: center;
   z-index: 3;
   pointer-events: none;
