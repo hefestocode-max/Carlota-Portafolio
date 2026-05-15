@@ -191,6 +191,7 @@ p { color: var(--text-grey-be); font-weight: 300; line-height: 1.8; }
   z-index: 3;
   pointer-events: none;
   width: 90%;
+  display: none;
 }
 .home_header_name {
   font-family: 'Great Vibes', cursive;
@@ -261,8 +262,8 @@ p { color: var(--text-grey-be); font-weight: 300; line-height: 1.8; }
 }
 .home_about_image-wrap {
   border-radius: .5rem;
-  width: 22rem;
-  height: 30rem;
+  width: 24rem;
+  height: 32rem;
   overflow: hidden;
   flex-shrink: 0;
   align-self: center;
