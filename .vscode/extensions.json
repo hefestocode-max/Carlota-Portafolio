@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "openai.chatgpt",
+    "anthropic.claude-code",
+    "ms-playwright.playwright",
+    "esbenp.prettier-vscode",
+    "usernamehw.errorlens",
+    "eamodio.gitlens"
+  ],
+  "unwantedRecommendations": [
+    "prisma.prisma",
+    "supabase.vscode-supabase-extension",
+    "dart-code.dart-code",
+    "dart-code.flutter",
+    "golang.go",
+    "docker.docker",
+    "msjsdiag.vscode-react-native",
+    "vitest.explorer"
+  ]
+}

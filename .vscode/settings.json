@@ -1,0 +1,17 @@
+{
+  "files.exclude": {
+    ".ai-audit-backups": true,
+    ".remember": true,
+    ".playwright-cli": true,
+    ".firecrawl": true
+  },
+  "search.exclude": {
+    ".ai-audit-backups": true,
+    ".remember": true,
+    ".playwright-cli": true,
+    ".firecrawl": true,
+    "Material visual/My Work/Página web para portfolio lujo minimalista_files": true
+  },
+  "editor.formatOnSave": false,
+  "html.format.wrapLineLength": 120
+}

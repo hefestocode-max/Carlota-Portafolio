@@ -534,6 +534,34 @@ p { color: var(--text-grey-be); font-weight: 300; line-height: 1.8; }
 }
 .common_services_item-wrap:hover .common_services_item-image { transform: scale(1.05); }
 
+.common_services_logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3.75rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.common_services_logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  opacity: 0.85;
+  transition: opacity .2s ease, transform .2s ease;
+}
+.common_services_logo-item:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+.common_services_logo-image {
+  height: 8rem;
+  width: auto;
+  object-fit: contain;
+  border-radius: .5rem;
+}
+
 /* =====================================================
    WHY
    ===================================================== */
@@ -945,7 +973,8 @@ p { color: var(--text-grey-be); font-weight: 300; line-height: 1.8; }
   .home_about_info { width: 100%; max-width: 100%; }
 
   .common_services_text-wrap { grid-template-columns: 1fr; }
-  .common_services_list { grid-template-columns: repeat(2, 1fr); }
+  .common_services_logos { gap: 1.5rem; }
+  .common_services_logo-image { height: 6rem; }
 
   .common_why_content { grid-template-columns: 1fr; }
 
@@ -981,7 +1010,7 @@ p { color: var(--text-grey-be); font-weight: 300; line-height: 1.8; }
   .home_header_image-wrap { height: 100vh; }
 
   .common_work_list { grid-template-columns: 1fr; }
-  .common_services_list { grid-template-columns: 1fr; }
+  .common_services_logo-item { min-width: 10rem; }
 
   .common_clients_content { grid-template-columns: repeat(2, 1fr); gap: 0 2rem; }
   .common_clients_logo { width: 6rem; height: 6rem; margin-top: -2rem; }
